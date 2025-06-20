@@ -6,32 +6,32 @@ function buttons({name, color, nameMm, txtColor}) {
 function changeColor() {
 
    if (name === "Grey") {  
-    color("grey")
-    nameMm("Grey")
+    color(name)
+    nameMm(name)
       txtColor("white")
     } else if (name === "Blue") {
-      color("blue")
-      nameMm("Blue")
+      color(name)
+      nameMm(name)
       txtColor("white")
     } else if (name === "Orange") {
-      color("orange")
-      nameMm("Orange")
+      color(name)
+      nameMm(name)
       txtColor("white")
     } else if (name === "Pink") {
-      color("pink")
-      nameMm("Pink")
+      color(name)
+      nameMm(name)
       txtColor("black")
     } else if (name === "Purple") {
-      color("purple")
-      nameMm("Purple")
+      color(name)
+      nameMm(name)
       txtColor("white")
     } else if (name === "Red") {
-      color("red")
-      nameMm("Red")
+      color(name)
+      nameMm(name)
       txtColor("white")
     } else if (name === "Yellow") {
-      color("yellow")
-      nameMm("Yellow")
+      color(name)
+      nameMm(name)
       txtColor("black")
    }
 }
